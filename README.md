@@ -104,7 +104,7 @@ sudo groupadd --gid 50305 permagrp6
 On Ubuntu, run this command to install LibreOffice with patch
 
 ```
-wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/librepatch.sh && chmod +x librepatch.sh && bash librepatch.sh
+wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/librepatch.sh && chmod +x librepatch.sh && bash librepatch.sh
 ```
 
 ### Install FireFox
