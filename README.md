@@ -16,19 +16,19 @@ Copy and paste this command to Termux:
 ### Ubuntu 20 With XFCE4
 
 ```bash
-pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
+pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
 ```
 
 ### Ubuntu 20 CLI Only
 
 ```bash
-pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh nde
+pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh nde
 ```
 
 ### Ubuntu 20 With LXDE
 
 ```bash
-pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh lxde
+pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh lxde
 ```
 
 ## Run
