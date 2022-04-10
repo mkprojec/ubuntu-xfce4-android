@@ -3,7 +3,7 @@ export LC_ALL=C
 export LANGUAGE=en_US
 
 if [ ! -z `which vncserver` ]; then
-  GEO="" PORT=1 vnc
+  GEO="-geometry 1440x720" PORT=1 vnc
 fi
 
 exit() {
