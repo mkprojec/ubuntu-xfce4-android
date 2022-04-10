@@ -236,23 +236,23 @@ rm -rf ubuntu20-fs/usr/local/bin/*
 
 echo "127.0.0.1 localhost" > $folder/etc/hosts
 echo "Set disable_coredump false" > $folder/etc/sudo.conf
-wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/.bash_profile -O ubuntu20-fs/root/.bash_profile > /dev/null
-wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/vnc -P ubuntu20-fs/usr/local/bin > /dev/null
-wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/vncpasswd -P ubuntu20-fs/usr/local/bin > /dev/null
-wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/vncserver-stop -P ubuntu20-fs/usr/local/bin > /dev/null
-wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/vncserver-start -P ubuntu20-fs/usr/local/bin > /dev/null
+wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/.bash_profile -O ubuntu20-fs/root/.bash_profile > /dev/null
+wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/vnc -P ubuntu20-fs/usr/local/bin > /dev/null
+wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/vncpasswd -P ubuntu20-fs/usr/local/bin > /dev/null
+wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/vncserver-stop -P ubuntu20-fs/usr/local/bin > /dev/null
+wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/vncserver-start -P ubuntu20-fs/usr/local/bin > /dev/null
 
-wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/firstrun -P ubuntu20-fs/usr/share/andronix > /dev/null
+wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/firstrun -P ubuntu20-fs/usr/share/andronix > /dev/null
 
 mkdir -p ubuntu20-fs/usr/share/andronix
 case "$1" in
 	"nde")
 		;;
   "lxde")
-		wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/de-lxde -O ubuntu20-fs/usr/share/andronix/de-install > /dev/null
+		wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/de-lxde -O ubuntu20-fs/usr/share/andronix/de-install > /dev/null
     ;;
 	*)
-		wget -q https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/de-xfce -O ubuntu20-fs/usr/share/andronix/de-install > /dev/null
+		wget -q https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/de-xfce -O ubuntu20-fs/usr/share/andronix/de-install > /dev/null
 		;;
 esac
 
