@@ -87,8 +87,7 @@ groups: cannot find name for group ID 50305
 You can simply add group with this command:
 
 ```
-sudo groupadd --gid 20305 permagrp5
-sudo groupadd --gid 50305 permagrp6
+touch ~/.hushlogin
 ```
 
 ## Other
