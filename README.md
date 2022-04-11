@@ -84,7 +84,7 @@ groups: cannot find name for group ID 20305
 groups: cannot find name for group ID 50305
 ```
 
-You can simply add group with this command:
+You can add comment on user@localhost:-$
 
 ```
 touch ~/.hushlogin
