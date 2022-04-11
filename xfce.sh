@@ -12,8 +12,7 @@ sudo apt install tzdata -y
 sudo apt install sudo wget nano inetutils-tools dialog -y
 sudo apt install xfce4 xfce4-goodies xfce4-terminal tigervnc-standalone-server tigervnc-common dbus-x11 ffmpeg language-pack-en thunar-archive-plugin tumbler --no-install-recommends -y
 sudo apt --fix-broken install
-sudo wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/krido.jpg
-sudo xfconf-query -c xfce4-desktop -p  /backdrop/screen0/monitor0/workspace0/last-image -s /home/headless/krido.jpg
+sudo wget -P /usr/share/backgrounds/xfce/ https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/xfce-verticals.png
 sudo apt clean
 
 mkdir -p ~/.vnc
