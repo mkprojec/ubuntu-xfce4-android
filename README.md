@@ -17,7 +17,7 @@ Copy and paste this command to Termux:
 before installing update and upgrade first!
 
 ```bash
-pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
+pkg update && pkg upgrade -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
 ```
 
 ### Ubuntu 20 CLI Only
