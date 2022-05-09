@@ -14,6 +14,7 @@ This installs Ubuntu 20 with xfce4 desktop on Termux. All scripts are from Andro
 Copy and paste this command to Termux:
 
 ### Ubuntu 20 With XFCE4
+before installing update and upgrade first!
 
 ```bash
 pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/mkprojec/ubuntu-xfce4-android/master/ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
