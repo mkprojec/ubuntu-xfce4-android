@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Get the necessar components
+sudo apt update -y
 sudo apt install software-properties-common -y
 sudo add-apt-repository ppa:xubuntu-dev/staging -y
 sudo apt update -y
